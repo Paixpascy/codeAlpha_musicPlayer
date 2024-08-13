@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+    <title>MUSIC PLAYER</title>
+</head>
+<body>
+    <div class="logo"><img src="logo.jpg" height="60px"> PEACE PLAYER</div>
+    <div class="content">
+        <div class="content-one">
+            <img class="song-image" id="song-image">
+            <div class="volume">
+                <p id="volume-bar"></p>
+                <i class="fas fa-volume-up" id="volume" onclick="mute()"></i>
+                <input type="range" min="0" max="100"onchange="changeVolume()" id="vol">
+            </div>
+        </div>
+            <div class="conten-two">
+                <div class="song-no">
+                    <p id="current">1</p>
+                    <p>/</p>
+                    <p id="total">6</p>
+                </div>
+                <p id="title"></p>
+                <p id="artist"></p>
+           
+            <div class="buttons">
+                <button onclick="previousSong()" id="previous"><i class="fa-solid fa-backward"></i></button>
+                <button onclick="songPlay()" id="play"><i class="fa-solid fa-play"></i></button>
+                <button onclick="nextSong()" id="next"><i class="fa-solid fa-forward"></i></button>
+            </div>
+            <div class="timing">
+                <input type="range" min="0"max="100"onchange="changeDuration()" id="duration-slider">
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
