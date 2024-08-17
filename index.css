@@ -1,19 +1,16 @@
-body{
+body {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     width: 100%;
-   background-image:url(background.jpg);
+    background-image:url(background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
 }
-/*.content button{
-    padding: 10px 12px;
-    margin: 0 10px;
-}*/
-.logo{
+
+.logo {
     position: absolute;
     top: 10px;
     left: 10px;
@@ -22,7 +19,7 @@ body{
     font-weight: bolder;
     font-style: italic;
 }
-.content-one,.conten-two{
+.content-one,.conten-two {
     position: relative;
     display: flex;
     align-items: center;
@@ -31,26 +28,26 @@ body{
     height: 100%;
     width: 50%;
 }
-.content{
+.content {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.content-one img{
+.content-one img {
     height: 400px;
     width: 350px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px 10px rgba(220,220,220,0.5);
 }
- .volume i{
+ .volume i {
     cursor: pointer;
     
 }
-.volume i:hover{
+.volume i:hover {
     color:coral
 }
-.buttons button{
+.buttons button {
     border: none;
     cursor: pointer;
     transition: 0.5s;
@@ -59,21 +56,21 @@ body{
     height: 40px;
     background-color: brown;
 }
-.timing{
+.timing {
     width: 100%;
     padding-bottom: 10px;
     left: 20px;
     padding-top:20px;
 }
-.conten-two{
+.conten-two {
     padding-left: 80px;
 }
 
-#duration-slider{
+#duration-slider {
     cursor: pointer;
     padding-left: 20px;
 }
-.song-no{
+.song-no {
     position: absolute;
     top: 0px;
     right: 20px;
@@ -86,7 +83,7 @@ body{
     background-color: darkgray;
     border-style: groove;
 }
-.song-no p:nth-child(2){
+.song-no p:nth-child(2) {
     margin: 0 5px;
 }
 #title{
