@@ -18,34 +18,39 @@ let song=document.createElement('audio');
 let songs=[
     {
         name:"first song",
-        path:"one.mp3",
-        img:"one.jpeg"
+        path:"music/one.mp3",
+        img:"images/one.jpeg",
+        artist:"SANDY"
     },
     {
        name:"second song",
-       path:"two.mp3",
-       img:'two.jpeg'
+       path:"music/two.mp3",
+       img:'images/two.jpeg',
+       artist:"SMITH"
     },
     {
         name:"third song",
-        path:"three.mp3",
-        img:"three.jpeg"
-        
+        path:"music/three.mp3",
+        img:"images/three.jpeg",
+        artist:"AMY"
     },
     {
        name:"fourth song",
-       path:"four.mp3",
-       img:"four.jpg"
+       path:"music/four.mp3",
+       img:"images/four.jpg",
+       artist:"WINLOS"
     },
     {
        name:"fifth song",
-       path:"five.mp3",
-       img:"four.jpg"
+       path:"music/five.mp3",
+       img:"images/five.jpeg",
+       artist:"MILA"
     },
     {
         name:"sixth song",
-        path:"six.mp3",
-        img:"six.jpg"
+        path:"music/six.mp3",
+        img:"images/six.jpg",
+        artist:"BOB"
     }
 ];
 
