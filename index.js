@@ -22,27 +22,28 @@ let songs=[
         img:"one.jpeg"
     },
     {
-        name: "second song",
-        path: "two.mp3",
-        img: "two.jpeg"
+       name:"second song",
+       path:"two.mp3",
+       img:'two.jpeg'
     },
     {
-        name: "third song",
-        path: "three.mp3",
-        img: "three.jpeg"
+        name:"third song",
+        path:"three.mp3",
+        img:"three.jpeg"
+        
     },
     {
-        name: "fourth song",
-        path: "four.mp3",
-        img: "four.jpg"
+       name:"fourth song",
+       path:"four.mp3",
+       img:"four.jpg"
     },
     {
        name:"fifth song",
        path:"five.mp3",
-       img:"five.jpeg"
+       img:"four.jpg"
     },
     {
-        name:'sixth song',
+        name:"sixth song",
         path:"six.mp3",
         img:"six.jpg"
     }
